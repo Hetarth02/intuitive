@@ -21,9 +21,7 @@
         <button type="button" onclick="search_text()">Call Function</button>
     </div>
     <div class="container">
-        <div id="answer" class="answer">
-            Answer goes here...
-        </div>
+        <div id="answer" class="answer" style="display: none;"></div>
         <button class="copy_button" data-clipboard-target="#answer" onclick="showmessage()">Copy to Clipboard <i class="bi bi-clipboard"></i></button>
     </div>
     <div class="footer">
@@ -48,6 +46,7 @@
             request.responseType = 'json';
             request.send();
             request.onload = function () {
+                document.getElementById("answer").style.display = "block";
                 const data = request.response;
                 var the_div = document.getElementById("answer");
                 the_div.innerHTML = data[key];

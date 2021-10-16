@@ -63,7 +63,7 @@ h1::after {
 
 .subtitle {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     font-family: monospace;
     opacity: 0;
@@ -97,6 +97,7 @@ h1::after {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 5vh;
     margin-bottom: 1rem;
 }
 
@@ -129,14 +130,14 @@ h1::after {
     outline: none;
     background: none;
     margin: 12px auto;
-    color: #256d85;
+    color: #abd3ed;
     font-size: 1.1rem;
     cursor: pointer;
 }
 
 .search_topic button[type = "button"]:hover {
     color: #17313a;
-    background: rgb(122, 122, 122);
+    background: #abd3ed;
     transition: ease-in 250ms;
 }
 
