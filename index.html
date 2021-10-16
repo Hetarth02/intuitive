@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intuitive()</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <div class="heading">
+        <h1>intuitive()</h1>
+        <p class="subtitle">//Make things Intuitive</p>
+    </div>
+    <div class="search_topic">
+        <span class="function_wrap">
+            intuitive <span class="bracket">(</span><input id="search_text" type="text" placeholder="type here"><span class="bracket">)</span>
+        </span>
+        <button type="button" onclick="search_text()">Call Function</button>
+    </div>
+    <div class="container">
+        <div id="answer" class="answer">
+            Answer goes here...
+        </div>
+        <button class="copy_button" data-clipboard-target="#answer" onclick="showmessage()">Copy to Clipboard <i class="bi bi-clipboard"></i></button>
+    </div>
+    <div class="footer">
+        <div class="credits">
+            Hand-crafted with <i class="bi bi-heart-fill heart"></i> by <a href="https://github.com/Hetarth02" class="link">Hetarth Shah</a> + <a href="https://github.com/Hetarth02/intuitive" class="link">Contributors</a>
+        </div>
+        <div class="github">
+            <a class="github-button" href="https://github.com/Hetarth02/intuitive" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Hetarth02/intuitive on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/Hetarth02/intuitive/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork Hetarth02/intuitive on GitHub">Fork</a>
+        </div>
+    </div>
+    <script>
+        new ClipboardJS('.copy_button');
+        function showmessage() {
+            alert("Copied");
+        }
+        function search_text() {
+            const key = document.getElementById('search_text').value;
+            const info = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+            let request = new XMLHttpRequest();
+            request.open('GET', info);
+            request.responseType = 'json';
+            request.send();
+            request.onload = function () {
+                const data = request.response;
+                var the_div = document.getElementById("answer");
+                the_div.innerHTML = data[key];
+            }
+        }
+    </script>
+</body>
+</html>

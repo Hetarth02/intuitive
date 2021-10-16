@@ -1,0 +1,202 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css");
+
+:root {
+    --bg-color: #242526;
+    --typewriter-speed: 4s;
+    --typewriter-chars: 11;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width:100%;
+    height:100%;
+}
+
+body {
+    display: box;
+    color: rgba(255, 255, 255, 0.904);
+    background-color: var(--bg-color);
+}
+
+.heading {
+    padding-top: 2rem;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    position: relative;
+    font-family: monospace;
+    width: max-content;
+    font-size: 2rem;
+}
+
+h1::before, h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+h1::before {
+    background: var(--bg-color);
+    animation: effect var(--typewriter-speed) steps(var(--typewriter-chars)) 1s forwards;
+}
+
+h1::after {
+    width: 0.25em;
+    background: rgba(245, 245, 245, 0.801);
+    animation: 
+        effect var(--typewriter-speed) steps(var(--typewriter-chars)) 1s forwards,
+        blink 650ms steps(var(--typewriter-chars)) infinite;
+}
+
+.subtitle {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: monospace;
+    opacity: 0;
+    transform: rotateY(3rem);
+    animation: fadeup 2s ease calc(var(--typewriter-speed) + 2s) forwards;
+}
+
+@keyframes effect {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes fadeup {
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+.search_topic {
+    margin: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.search_topic input[type = "text"] {
+    width: 25vw;
+    border: 0px solid transparent;
+    background: transparent;
+    text-align: center;
+    font-family: monospace;
+    color: aqua;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.function_wrap {
+    width: max-content;
+    color: rgb(98, 0, 255);
+    font-size: 1.5rem;
+    font-family: monospace;
+    margin-bottom: 1rem;
+}
+
+.bracket {
+    color: goldenrod;
+}
+
+.search_topic button[type = "button"] {
+    border: 1px solid white;
+    padding: 0.6rem;
+    outline: none;
+    background: none;
+    margin: 12px auto;
+    color: #256d85;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.search_topic button[type = "button"]:hover {
+    color: #17313a;
+    background: rgb(122, 122, 122);
+    transition: ease-in 250ms;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+}
+
+.answer {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    width: 60%;
+    height: 10rem;
+    overflow: auto;
+    color: rgb(205, 205, 205);
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #484245;
+    transition: ease 700ms;
+}
+
+.copy_button {
+    border: 1px transparent;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: #abd3ed;
+    margin-top: 5vh;
+}
+
+.github{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.github span {
+    padding: 0.5rem;
+}
+
+.link {
+    color: #b8e380;
+}
+
+.heart {
+    color: red;
+}
