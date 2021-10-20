@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>intuitive()</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
+
 <body>
     <div class="heading">
         <h1>intuitive()</h1>
@@ -16,42 +17,90 @@
     </div>
     <div class="search_topic">
         <span class="function_wrap">
-            intuitive <span class="bracket">(</span><input id="search_text" type="text" placeholder="type here"><span class="bracket">)</span>
+            intuitive <span class="bracket">(</span><input id="search_text" type="text" placeholder="Enter args"><span
+                class="bracket">)</span>
         </span>
         <button type="button" onclick="search_text()">Call Function</button>
     </div>
     <div class="container">
-        <div id="answer" class="answer" style="display: none;"></div>
-        <button class="copy_button" data-clipboard-target="#answer" onclick="showmessage()">Copy to Clipboard <i class="bi bi-clipboard"></i></button>
+        <div id="answer" class="answer" style="display: none;">
+            <div class="terminal-head">
+                <div class="head-dot-holder">
+                    <svg stroke="currentColor" fill="#ff5f56" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="8"></circle>
+                    </svg>
+                    <svg stroke="currentColor" fill="#ffbd2e" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="8"></circle>
+                    </svg>
+                    <svg stroke="currentColor" fill="#27c93f" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="8"></circle>
+                    </svg>
+                </div>
+                <button class="copy_button" onclick="copyMessage()">
+                    <i class="bi bi-clipboard"></i>
+                </button>
+            </div>
+            <div class="output-zone">
+                <code>Output - </code>
+                <br />
+                <code class="answer-sheet terminal-output"
+                    id="answer-sheet">Error code 404 : intuitive() missing required parameters !</code>
+                <code id="raw-answer" style="display: none;"></code>
+            </div>
+        </div>
     </div>
     <div class="footer">
         <div class="credits">
-            Hand-crafted with <i class="bi bi-heart-fill heart"></i> by <a href="https://github.com/Hetarth02" class="link">Hetarth Shah</a> + <a href="https://github.com/Hetarth02/intuitive" class="link">Contributors</a>
+            Hand-crafted with <i class="bi bi-heart-fill heart"></i> by <a href="https://github.com/Hetarth02"
+                class="link">Hetarth Shah</a> + <a href="https://github.com/Hetarth02/intuitive"
+                class="link">Contributors</a>
         </div>
         <div class="github">
-            <a class="github-button" href="https://github.com/Hetarth02/intuitive" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star Hetarth02/intuitive on GitHub">Star</a>
-            <a class="github-button" href="https://github.com/Hetarth02/intuitive/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork Hetarth02/intuitive on GitHub">Fork</a>
+            <a class="github-button" href="https://github.com/Hetarth02/intuitive" data-icon="octicon-star"
+                data-size="large" data-show-count="true" aria-label="Star Hetarth02/intuitive on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/Hetarth02/intuitive/fork" data-icon="octicon-repo-forked"
+                data-size="large" data-show-count="true" aria-label="Fork Hetarth02/intuitive on GitHub">Fork</a>
         </div>
     </div>
     <script>
-        new ClipboardJS('.copy_button');
-        function showmessage() {
-            alert("Copied");
+        function copyMessage() {
+            var copyText = document.getElementById("raw-answer");
+            navigator.clipboard.writeText(copyText.textContent);
+            alert("Copied the text: " + copyText.textContent);
         }
         function search_text() {
             const key = document.getElementById('search_text').value;
-            const info = 'https://raw.githubusercontent.com/Hetarth02/intuitive/main/info.json';
-            let request = new XMLHttpRequest();
-            request.open('GET', info);
-            request.responseType = 'json';
-            request.send();
-            request.onload = function () {
+            console.log(key.length)
+            let result;
+            if (key.length != 0) {
+                const newKey = key.toLowerCase();
+                const info = './info.json';
+                let request = new XMLHttpRequest();
+                request.open('GET', info);
+                request.responseType = 'json';
+                request.send();
+                request.onload = function () {
+                    document.getElementById("answer").style.display = "block";
+                    const data = request.response;
+                    const filteredData = data.filter(item => item.keywords.includes(newKey))
+                    const errorMessage = "<span style='color:red'>Error code 101 : No record found ! <br/><br/> Error info : It is currently undefined/Not found, contribute by adding this word's definition and keywords<span/>"
+                    filteredData.length === 0 ?
+                        result = errorMessage
+                        : result = `<span style='color:green'>Code compiled sucessfully ......<span/><br/><span style='color:white'> ${filteredData[0].description}<span/>`;
+                    document.getElementById("answer-sheet").innerHTML = result;
+                    document.getElementById("raw-answer").innerHTML = filteredData[0].description;
+                }
+            } else {
+                result = "<span style='color:red'> Error code 404 : intuitive() missing required parameters ! <span/>";
+                document.getElementById("answer-sheet").innerHTML = result;
+                document.getElementById("raw-answer").innerHTML = result;
                 document.getElementById("answer").style.display = "block";
-                const data = request.response;
-                var the_div = document.getElementById("answer");
-                the_div.innerHTML = data[key];
             }
         }
     </script>
 </body>
+
 </html>
