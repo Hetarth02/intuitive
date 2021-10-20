@@ -91,7 +91,7 @@
                         result = errorMessage
                         : result = `<span style='color:green'>Code compiled sucessfully ......<span/><br/><span style='color:white'> ${filteredData[0].description}<span/>`;
                     document.getElementById("answer-sheet").innerHTML = result;
-                    document.getElementById("raw-answer").innerHTML = filteredData[0].description;
+                    document.getElementById("raw-answer").innerHTML = filteredData.length === 0 ? errorMessage : filteredData[0].description;
                 }
             } else {
                 result = "<span style='color:red'> Error code 404 : intuitive() missing required parameters ! <span/>";
