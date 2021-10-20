@@ -1,9 +1,59 @@
-{
-    "Hello World!" : "The first thing you write when you learn any programming language.",
-    "Initial Commit" : "Your first open source contibution commit message. Welcome to Open-Source!",
-    "Python" : "A high level programming language that is simple to use. It is an interpreted language, thus slower than its peers. Suitable for beginners.",
-    "Java" : "A high level, class-based and object-oriented programming language. It is a sophisticated and powerful software designing tool.",
-    "Data Science" : "A field of science that deals with the study and analysis of data using numerous approaches and algorithms.",
-    "Machine Learning" : "A field of Computer sciences that deals with teaching computers to solve  complex logical problems that are difficult to implement using traditional means.",
-    "Neural Networks" : "A network of nodes that share and process information using various activation/threshhold algorithm, that simulates the functionality of biological neurons on a computer."
-}
+[
+    {
+        "keywords": [
+            "Hello World",
+            "hello world",
+            "helloworld",
+            " hello world",
+            "hello world "
+        ],
+        "description": "The first thing you write when you learn any programming language."
+    },
+    {
+        "keywords": [
+            "Intial Commit",
+            "First commit",
+            "inital commit"
+        ],
+        "description": "Your first open source contibution commit message. Welcome to Open-Source!"
+    },
+    {
+        "keywords": [
+            "Python",
+            "py",
+            "python"
+        ],
+        "description": "A high level programming language that is simple to use. It is an interpreted language, thus slower than its peers. Suitable for beginners."
+    },
+    {
+        "keywords": [
+            "Java",
+            "java"
+        ],
+        "description": "A high level, class-based and object-oriented programming language. It is a sophisticated and powerful software designing tool."
+    },
+    {
+        "keywords": [
+            "Data Science",
+            "data science",
+            "DS"
+        ],
+        "description": "A field of science that deals with the study and analysis of data using numerous approaches and algorithms."
+    },
+    {
+        "keywords": [
+            "Machine Learning",
+            "machine learning",
+            "M L"
+        ],
+        "description": "A field of Computer sciences that deals with teaching computers to solve  complex logical problems that are difficult to implement using traditional means."
+    },
+    {
+        "keywords": [
+            "Neural Network",
+            "neural network",
+            "N N"
+        ],
+        "description": "A network of nodes that share and process information using various activation/threshhold algorithm, that simulates the functionality of biological neurons on a computer."
+    }
+]

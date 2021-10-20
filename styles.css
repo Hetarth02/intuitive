@@ -126,19 +126,22 @@ h1::after {
 
 .search_topic button[type = "button"] {
     border: 1px solid white;
-    padding: 0.6rem;
+    border-radius: 5px;
+    padding: 0.8rem;
     outline: none;
     background: none;
     margin: 12px auto;
-    color: #abd3ed;
+    color: white;
     font-size: 1.1rem;
     cursor: pointer;
+    transition: ease 0.5s;
 }
 
 .search_topic button[type = "button"]:hover {
-    color: #17313a;
-    background: #abd3ed;
-    transition: ease-in 250ms;
+    color: white;
+    background: rgb(98, 0, 255);
+    border: 1px solid transparent;
+    transition: ease 0.5s;
 }
 
 .container {
@@ -149,26 +152,61 @@ h1::after {
     margin-top: 6vh;
 }
 
+
 .answer {
     font-family: sans-serif;
     font-size: 1.3rem;
     width: 60%;
-    height: 10rem;
-    overflow: auto;
+    padding-bottom: 20px;
     color: rgb(205, 205, 205);
     border-radius: 0.5rem;
-    padding: 1rem 1rem 1rem 1rem;
-    background-color: #484245;
+  background-color: rgb(19, 19, 19);
     transition: ease 700ms;
+    transition: ease 0.5s;
+}
+
+.terminal-head{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-dot-holder{
+    margin-left: 5px;
+}
+
+.output-zone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.answer-sheet{
+    width: 90%;
+    height: 90%;
+    word-wrap: break-word;
 }
 
 .copy_button {
-    border: 1px transparent;
-    font-size: 1.5rem;
-    padding: 1rem;
+    border: 1px  transparent;
     color: white;
     background: none;
     cursor: pointer;
+    padding: 10px;
+   
+    border-radius: 50%;
+ 
+    transition: ease 0.5s;
+}
+
+.bi-clipboard{
+    font-size: 1rem;
 }
 
 .footer {
@@ -190,6 +228,10 @@ h1::after {
     flex-wrap: wrap;
 }
 
+.credits{
+    font-size: 1.2rem;
+}
+
 .github span {
     padding: 0.5rem;
 }
@@ -201,3 +243,14 @@ h1::after {
 .heart {
     color: red;
 }
+
+
+@media screen and (max-width: 480px) {
+    .answer {
+      width: 85%;
+    }
+
+    .function_wrap{
+        font-size: 1.5rem;
+    }
+  }
