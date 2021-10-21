@@ -55,5 +55,30 @@
             "N N"
         ],
         "description": "A network of nodes that share and process information using various activation/threshhold algorithm, that simulates the functionality of biological neurons on a computer."
+    },
+    {
+        "keywords": [
+            "back end",
+            "backend",
+            "back-end",
+            "Back End"
+        ],
+        "description": "Part of an application that performs an essential task not apparent to the user."
+    },
+    {
+        "keywords": [
+            "fron end",
+            "frontend",
+            "front-end",
+            "Front End"
+        ],
+        "description": "Part of an application of producing HTML, CSS and JavaScript where user can see and interact with them directly."
+    },
+    {
+        "keywords": [
+            "malware",
+            "Malware"
+        ],
+        "description": "Refers to a software program that has been developed to do harm to other computers. Malware if short for Malicious software. Types of malware include viruses, worms and spyware."
     }
 ]
