@@ -19,14 +19,13 @@ body {
 }
 
 body {
-    display: box;
+    
     color: rgba(255, 255, 255, 0.904);
     background-color: var(--bg-color);
 }
 
 .heading {
     padding-top: 2rem;
-    background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,6 +58,20 @@ h1::after {
     animation: 
         effect var(--typewriter-speed) steps(var(--typewriter-chars)) 1s forwards,
         blink 650ms steps(var(--typewriter-chars)) infinite;
+}
+
+.night-btn {
+    border: 2px solid white;
+    padding:0.5 rem;
+    outline:none;
+    background-color: white;
+    margin: 9px;
+    color: black;
+    cursor: pointer;
+    height: 27px;
+    width: 95px;
+    transition: ease 0.5s;
+
 }
 
 .subtitle {
@@ -107,7 +120,7 @@ h1::after {
     background: transparent;
     text-align: center;
     font-family: monospace;
-    color: aqua;
+    color: rgb(18, 138, 44);
     font-size: 1.5rem;
     outline: none;
 }
@@ -125,23 +138,24 @@ h1::after {
 }
 
 .search_topic button[type = "button"] {
-    border: 1px solid white;
+    border: 1px solid blue;
     border-radius: 5px;
     padding: 0.8rem;
     outline: none;
-    background: none;
+    background: lightblue;
     margin: 12px auto;
-    color: white;
+    color:black;
     font-size: 1.1rem;
     cursor: pointer;
     transition: ease 0.5s;
 }
 
 .search_topic button[type = "button"]:hover {
-    color: white;
-    background: rgb(98, 0, 255);
+    color: black;
+    background:rgb(97, 223, 24);
     border: 1px solid transparent;
     transition: ease 0.5s;
+    border-radius:10px ;
 }
 
 .container {
@@ -237,7 +251,8 @@ h1::after {
 }
 
 .link {
-    color: #b8e380;
+    color: rgb(18, 138, 44);;
+    text-decoration: none;
 }
 
 .heart {
@@ -254,3 +269,8 @@ h1::after {
         font-size: 1.5rem;
     }
   }
+.light-mode {
+    color: black;
+    background-color: white;
+    
+}
