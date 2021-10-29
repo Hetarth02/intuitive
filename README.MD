@@ -26,6 +26,16 @@ Easy to understand the definition and multiple keywords.
 - Data Science
 - Machine Learning
 - Neural Networks
+- Pandas
+- Numpy
+- Stack
+- Queue
+- Data Structure
+- Backend
+- Frontend
+- Malware
+- Spam/Fake
+- Risk
 
 ## Found a Bug or Want to add more Words?
 
