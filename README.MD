@@ -36,6 +36,13 @@ Easy to understand the definition and multiple keywords.
 - Malware
 - Spam/Fake
 - Risk
+- Data Visualization
+- Data Prediction
+- Supervised Learning
+- Unsupervised Learning
+- Boxplot
+- Data
+- Reinforcement Learning
 
 ## Found a Bug or Want to add more Words?
 

@@ -154,5 +154,60 @@
             "Risk"
         ],
         "description": "Risk refers to the potential threat that has occurred or has a due chance of occurring in the near future."
+    },
+    {
+        "keywords": [
+            "Data Visualization",
+            "Data visualization",
+            "data visualization"
+        ],
+        "description": "Data Visualization refers to the process that is needed to present the data in a insightful manner in the form of a graph."
+    },
+    {
+        "keywords": [
+            "Data Prediction",
+            "data prediction",
+            "Data prediction"
+        ],
+        "description": "Prediction refers to the forecast that is to be made on the newly available data based on the training data."
+    },
+    {
+        "keywords": [
+            "Supervised Learning",
+            "supervised learning",
+            "predictive learning"
+        ],
+        "description": "Training of the model requires both x(features) and y(labels) for training purpose and give prediction."
+    },
+    {
+        "keywords": [
+            "Unsupervised Learning",
+            "unsupervised learning",
+            "descriptive learning"
+        ],
+        "description": "Only features(x) are provided and classification is based on the basis of similarity and dis-similarity."
+    },
+    {
+        "keywords": [
+            "Boxplot",
+            "boxplot"
+        ],
+        "description": "It is a type of graph which is used to plot the outliers(Points that deviate from the remaining data points)."
+    },
+    {
+        "keywords": [
+            "Data",
+            "data",
+            "DATA"
+        ],
+        "description": "Data is just the collection of raw facts which can be moulded into information."
+    },
+    {
+        "keywords": [
+            "Reinforcement Learning",
+            "reinforcement learning",
+            "Reinforcement learning"
+        ],
+        "description": "It works on the principle of reward which can be availed at the end of each achieved task. E.g.:- Q-learning."
     }
 ]
