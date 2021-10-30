@@ -1,5 +1,5 @@
 # Intuitive  
-<img src="./logo.png" alt="Logo" width="300" height="180"/>
+<img src="./logo.png" alt="Logo" width="900" height="540"/>
 
 
 ## Introduction
