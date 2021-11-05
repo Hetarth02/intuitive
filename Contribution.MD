@@ -1,9 +1,9 @@
 ## Steps to be followed for a better 
 
-- > Create an issue 
-- > Fork the Repo
-- > Make Changes and Commits
-- > Make Pull request
+- Create an issue 
+- Fork the Repo
+- Make Changes and Commits
+- Make Pull request
 
 ## Guidelines to contribute to database?
 - Make sure to check for duplicate entries before committing.

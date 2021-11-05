@@ -11,9 +11,11 @@ Easy to understand the definition and multiple keywords.
 
 ## Tech Stack
 
-- > HTML
-- > CSS
-- > JavaScript
+```python
+HTML
+CSS
+JavaScript
+```
 
 ## Contributing
 
@@ -36,7 +38,7 @@ See `Contribution.MD` for ways to get started.
 - Backend
 - Frontend
 - Malware
-- Spam/Fake
+- Spam
 - Risk
 - Data Visualization
 - Data Prediction
