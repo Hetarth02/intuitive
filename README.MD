@@ -47,6 +47,8 @@ See `Contribution.MD` for ways to get started.
 - Boxplot
 - Data
 - Reinforcement Learning
+- Git
+- GitHub
 
 ## Link
 - > https://hetarth02.github.io/intuitive/
