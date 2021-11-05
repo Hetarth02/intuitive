@@ -49,7 +49,5 @@ See `Contribution.MD` for ways to get started.
 
 ## Link
 - > https://hetarth02.github.io/intuitive/
- 
 
-
- // Add Contributor Names here
+## Add Contributor Names here
