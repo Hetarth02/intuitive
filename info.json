@@ -188,5 +188,22 @@
             "Reinforcement learning"
         ],
         "description": "It works on the principle of reward which can be availed at the end of each achieved task. E.g.:- Q-learning."
+    },
+    {
+        "keywords": [
+            "Git",
+            "git",
+            "GIT"
+        ],
+        "description": "Git is a version control system. Basically, if someone changes a file (like opens a document and writes stuff in it, changes a line of code, or so on) it records the differences between the new version and the old version, and maintains a history. This allows people to preserve differing versions, go back in time to earlier ones, review changes as they have occurred over time, and so on."
+    },
+    {
+        "keywords": [
+            "Github",
+            "github",
+            "GitHub",
+            "GITHUB"
+        ],
+        "description": "Github is basically a powerful collaboration and project management tool for computer programming. It's designed to let people share coding projects with others and help manage those projects while allowing others to also contribute to the source code. It's primarily useful when you have multiple people working on the same code-base and you want to keep track of and review everyone's individual contributions to the project."
     }
 ]
