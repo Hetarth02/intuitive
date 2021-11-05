@@ -1,6 +1,5 @@
-# Intuitive  
-<img src="./logo.png" alt="Logo" width="900" height="540"/>
-
+# Intuitive
+![Logo](./logo.png)
 
 ## Introduction
 A website where you can find intuitive and easy-to-understand definitions of probably any topic.
@@ -50,4 +49,10 @@ See `Contribution.MD` for ways to get started.
 ## Link
 - > https://hetarth02.github.io/intuitive/
 
-## Add Contributor Names here
+## Contributors
+- [@Nisarg03](https://www.github.com/Nisarg03)
+- [@suyashvash](https://www.github.com/suyashvash)
+- [@SohamPatel0810](https://www.github.com/SohamPatel0810)
+- [@LucaArgentieri](https://github.com/LucaArgentieri)
+- [@paucaro](https://github.com/paucaro)
+- [@ManishOffi](https://github.com/ManishOffi)

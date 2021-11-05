@@ -3,9 +3,7 @@
         "keywords": [
             "Hello World",
             "hello world",
-            "helloworld",
-            " hello world",
-            "hello world "
+            "helloworld"
         ],
         "description": "The first thing you write when you learn any programming language."
     },
@@ -44,7 +42,10 @@
         "keywords": [
             "Machine Learning",
             "machine learning",
-            "M L"
+            "M L",
+            "ML",
+            "Ml",
+            "ml"
         ],
         "description": "A field of Computer sciences that deals with teaching computers to solve  complex logical problems that are difficult to implement using traditional means."
     },
@@ -52,66 +53,45 @@
         "keywords": [
             "Neural Network",
             "neural network",
-            "N N"
+            "N N",
+            "NN",
+            "nn"
         ],
         "description": "A network of nodes that share and process information using various activation/threshhold algorithm, that simulates the functionality of biological neurons on a computer."
     },
     
     {
         "keywords": [
-            " Pandas",
-            "Pandas ",
             "Pandas",
-            "pandas",
-            " pandas",
-            "pandas "
+            "pandas"
         ],
         "description": "A python library mainly used to process data files and visualise it in various forms."
     },
     {
         "keywords": [
-            " Numpy",
-            "Numpy ",
             "Numpy",
-            "numpy",
-            " numpy",
-            "numpy "
+            "numpy"
         ],
         "description": "A python library mainly used to simulate time and space efficient mathematical equations and data structures."
     },
     {
         "keywords": [
-            " Stack",
-            "Stack ",
             "Stack",
-            "stack",
-            " stack",
-            "stack "
+            "stack"
         ],
         "description": "A stack is a type of data structure with a first-in-last-out policy, just like a stack of anything IRL."
     },
     {
         "keywords": [
-            " Queue",
-            "Queue ",
             "Queue",
-            "queue",
-            " queue",
-            "queue "
+            "queue"
         ],
         "description": "A queue is a type of data structure with a first-in-first-out policy, just like a queue of people IRL."
     },
     {
         "keywords": [
-            " Data Structure",
-            "Data Structure ",
-            " Data Structure",
             "Data structure",
-            " Data structure",
-            "Data structure ",
-            "data structure",
-            " data structure",
-            "data structure "
+            "data structure"
         ],
         "description": "A data structure is nothing but an arrangement and accessing method of numerous data points."
     },
@@ -143,8 +123,7 @@
     {
         "keywords": [
             "Spam",
-            "spam",
-            "fake "
+            "spam"
         ],
         "description": " Spam refers to the unauthorized content that is intended to hinder the person's personal space or to share irrelevant messages in a bulk."
     },

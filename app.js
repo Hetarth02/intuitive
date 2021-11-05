@@ -4,7 +4,9 @@ function copyMessage() {
     alert("Copied the text: " + copyText.textContent);
 }
 function search_text() {
-    const key = document.getElementById('search_text').value;
+    let key = document.getElementById('search_text').value;
+    key = key.trimStart();
+    key = key.trimEnd();
     let result;
     if (key.length != 0) {
         const newKey = key.toLowerCase();
