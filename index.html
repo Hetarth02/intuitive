@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="intuitive">
-    <meta name="description" content="A website where you can find intuitive and easy to understand definitions of probably any topic.">
-    <meta name="keywords" content="intuitive, intuitive(), definition, python definitions, definitions, define, def, python, easy definition, simple definition, laymen terms, laymen definitions, ML, machine leaning">
+    <meta name="description"
+        content="A website where you can find intuitive and easy to understand definitions of probably any topic.">
+    <meta name="keywords"
+        content="intuitive, intuitive(), definition, python definitions, definitions, define, def, python, easy definition, simple definition, laymen terms, laymen definitions, ML, machine leaning">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
@@ -17,61 +19,65 @@
 </head>
 
 <body>
-    <div class="heading">
-        <h1>intuitive()</h1>  
-        <p class="subtitle">//Make things Intuitive</p>
-    </div>
-    <div class="search_topic">
-        <span class="function_wrap">
-            intuitive <span class="bracket">(</span><input id="search_text" type="text" placeholder="Enter args"><span
-                class="bracket">)</span>
-        </span>
-        <button type="button" onclick="search_text()">Call Function</button>
-    </div>
-    <div class="container">
-        <div id="answer" class="answer" style="display: none;">
-            <div class="terminal-head">
-                <div class="head-dot-holder">
-                    <svg stroke="currentColor" fill="#ff5f56" stroke-width="0" viewBox="0 0 24 24" height="1em"
-                        width="1em" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="12" cy="12" r="8"></circle>
-                    </svg>
-                    <svg stroke="currentColor" fill="#ffbd2e" stroke-width="0" viewBox="0 0 24 24" height="1em"
-                        width="1em" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="12" cy="12" r="8"></circle>
-                    </svg>
-                    <svg stroke="currentColor" fill="#27c93f" stroke-width="0" viewBox="0 0 24 24" height="1em"
-                        width="1em" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="12" cy="12" r="8"></circle>
-                    </svg>
+    <div id="body-wrapper" class="wrapper">
+        <div class="heading">
+            <h1>intuitive()</h1>
+            <p class="subtitle">//Make things Intuitive</p>
+        </div>
+        <div class="search_topic">
+            <span class="function_wrap">
+                intuitive <span class="bracket">(</span><input id="search_text" type="text"
+                    placeholder="Enter args"><span class="bracket">)</span>
+            </span>
+            <button type="button" onclick="search_text()">Call Function</button>
+        </div>
+        <div class="container">
+            <div id="answer" class="answer" style="display: none;">
+                <div class="terminal-head">
+                    <div class="head-dot-holder">
+                        <svg stroke="currentColor" fill="#ff5f56" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="8"></circle>
+                        </svg>
+                        <svg stroke="currentColor" fill="#ffbd2e" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="8"></circle>
+                        </svg>
+                        <svg stroke="currentColor" fill="#27c93f" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="8"></circle>
+                        </svg>
+                    </div>
+                    <button class="copy_button" onclick="copyMessage()">
+                        <i class="bi bi-clipboard"></i>
+                    </button>
                 </div>
-                <button class="copy_button" onclick="copyMessage()">
-                    <i class="bi bi-clipboard"></i>
-                </button>
+                <div class="output-zone">
+                    <code>Output - </code>
+                    <br />
+                    <code class="answer-sheet terminal-output"
+                        id="answer-sheet">Error code 404 : intuitive() missing required parameters !</code>
+                    <code id="raw-answer" style="display: none;"></code>
+                </div>
             </div>
-            <div class="output-zone">
-                <code>Output - </code>
-                <br />
-                <code class="answer-sheet terminal-output"
-                    id="answer-sheet">Error code 404 : intuitive() missing required parameters !</code>
-                <code id="raw-answer" style="display: none;"></code>
+        </div>
+        <div class="footer">
+            <div class="credits">
+                Hand-crafted with <i class="bi bi-heart-fill heart"></i> by <a href="https://github.com/Hetarth02"
+                    class="link">Hetarth Shah</a> + <a href="https://github.com/Hetarth02/intuitive"
+                    class="link">Contributors</a>
+            </div>
+            <div class="github">
+                <a class="github-button" href="https://github.com/Hetarth02/intuitive" data-icon="octicon-star"
+                    data-size="large" data-show-count="true" aria-label="Star Hetarth02/intuitive on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/Hetarth02/intuitive/fork"
+                    data-icon="octicon-repo-forked" data-size="large" data-show-count="true"
+                    aria-label="Fork Hetarth02/intuitive on GitHub">Fork</a>
+                <button class="night-btn" onclick="themeFunction()">Light Mode</button>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="credits">
-            Hand-crafted with <i class="bi bi-heart-fill heart"></i> by <a href="https://github.com/Hetarth02"
-                class="link">Hetarth Shah</a> + <a href="https://github.com/Hetarth02/intuitive"
-                class="link">Contributors</a>
-        </div>
-        <div class="github">
-            <a class="github-button" href="https://github.com/Hetarth02/intuitive" data-icon="octicon-star"
-                data-size="large" data-show-count="true" aria-label="Star Hetarth02/intuitive on GitHub">Star</a>
-            <a class="github-button" href="https://github.com/Hetarth02/intuitive/fork" data-icon="octicon-repo-forked"
-                data-size="large" data-show-count="true" aria-label="Fork Hetarth02/intuitive on GitHub">Fork</a>
-            <button class="night-btn" onclick="themeFunction()">Light Mode</button>
-        </div>
-    </div>
+
     <script type="text/javascript" src="app.js"></script>
 </body>
 
