@@ -5,6 +5,8 @@ function copyMessage() {
 }
 function search_text() {
     let key = document.getElementById('search_text').value;
+    document.getElementById('body-wrapper').classList.remove("errorWrapper");
+    document.getElementById('body-wrapper').classList.remove("successWrapper");
     key = key.trimStart();
     key = key.trimEnd();
     let result;
