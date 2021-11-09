@@ -24,17 +24,19 @@ function search_text() {
                 result = errorMessage
                 : result = `<span style='color:green'>Code compiled sucessfully ......<span/><br/><span style='color:white'> ${filteredData[0].description}<span/>`;
             document.getElementById("answer-sheet").innerHTML = result;
+            document.getElementById('body-wrapper').classList.add(filteredData.length === 0 ? "errorWrapper" : "successWrapper");
             document.getElementById("raw-answer").innerHTML = filteredData.length === 0 ? errorMessage : filteredData[0].description;
         }
     } else {
         result = "<span style='color:red'> Error code 404 : intuitive() missing required parameters ! <span/>";
         document.getElementById("answer-sheet").innerHTML = result;
         document.getElementById("raw-answer").innerHTML = result;
+        document.getElementById('body-wrapper').classList.add("errorWrapper");
         document.getElementById("answer").style.display = "block";
     }
 }
-function themeFunction(){
+function themeFunction() {
     var element = document.body;
     element.classList.toggle("light-mode");
-    
+
 }
