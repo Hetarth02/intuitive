@@ -60,3 +60,4 @@ See `Contribution.MD` for ways to get started.
 - [@LucaArgentieri](https://github.com/LucaArgentieri)
 - [@paucaro](https://github.com/paucaro)
 - [@ManishOffi](https://github.com/ManishOffi)
+- [@honeykpatel](https://github.com/honeykpatel)
