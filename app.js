@@ -40,5 +40,4 @@ function search_text() {
 function themeFunction() {
     var element = document.body;
     element.classList.toggle("light-mode");
-
 }
