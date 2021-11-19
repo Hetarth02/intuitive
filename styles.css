@@ -15,15 +15,25 @@
 html,
 body {
     width: 100%;
- 
 }
 
-body { color: rgba(255, 255, 255, 0.904); background-color: var(--bg-color);}
+body {
+    color: rgba(255, 255, 255, 0.904);
+    background-color: var(--bg-color);
+}
 
-.wrapper{ width: 100%;height: 100%;}
-.errorWrapper{ background: linear-gradient(180deg, var(--bg-color) 0% , #ff000061);}
-.successWrapper{background: linear-gradient(180deg, var(--bg-color) 0% , #0080009e);}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+}
 
+.errorWrapper{
+    background: linear-gradient(180deg, var(--bg-color) 0% , #ff000061);
+}
+
+.successWrapper{
+    background: linear-gradient(180deg, var(--bg-color) 0% , #0080009e);
+}
 
 .heading {
     padding-top: 2rem;
@@ -72,7 +82,6 @@ h1::after {
     height: 27px;
     width: 95px;
     transition: ease 0.5s;
-
 }
 
 .subtitle {
@@ -140,10 +149,10 @@ h1::after {
 
 .search_topic button[type = "button"] {
     border: 1px solid transparent;
-    border-radius:10px ;
+    border-radius: 10px;
     padding: 0.8rem;
     outline: none;
-    background:linear-gradient(135deg, #b1ea4d 0%,#459522 100%);
+    background: linear-gradient(135deg, #b1ea4d 0%,#459522 100%);
     margin: 12px auto;
     color:black;
     font-size: 1.1rem;
@@ -155,7 +164,7 @@ h1::after {
     color: black;
     box-shadow: 0px 0px 20px 6px #6db53269;
     border: 1px solid transparent;
-    border-radius:10px ;
+    border-radius: 10px;
     transition: ease 0.5s;
 }
 
@@ -175,7 +184,7 @@ h1::after {
     padding-bottom: 20px;
     color: rgb(205, 205, 205);
     border-radius: 0.5rem;
-  background-color: rgb(19, 19, 19);
+    background-color: rgb(19, 19, 19);
     transition: ease 700ms;
     transition: ease 0.5s;
 }
@@ -214,9 +223,7 @@ h1::after {
     background: none;
     cursor: pointer;
     padding: 10px;
-   
     border-radius: 50%;
- 
     transition: ease 0.5s;
 }
 
@@ -261,18 +268,17 @@ h1::after {
     color: red;
 }
 
+.light-mode {
+    color: black;
+    background-color: white;    
+}
 
 @media screen and (max-width: 480px) {
     .answer {
-      width: 85%;
+        width: 85%;
     }
 
     .function_wrap{
         font-size: 1.5rem;
     }
-  }
-.light-mode {
-    color: black;
-    background-color: white;
-    
 }

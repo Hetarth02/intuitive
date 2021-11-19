@@ -12,14 +12,10 @@ function search_text() {
     let result;
     if (key.length != 0) {
         const newKey = key.toLowerCase();
-        const info = './info.json';
-        let request = new XMLHttpRequest();
-        request.open('GET', info);
-        request.responseType = 'json';
-        request.send();
-        request.onload = function () {
+        axios.get('./info.json')
+        .then(function (response) {
             document.getElementById("answer").style.display = "block";
-            const data = request.response;
+            const data = response.data;
             const filteredData = data.filter(item => item.keywords.includes(newKey))
             const errorMessage = "<span style='color:red'>Error code 101 : No record found ! <br/><br/> Error info : It is currently undefined/Not found, contribute by adding this word's definition and keywords<span/>"
             filteredData.length === 0 ?
@@ -28,7 +24,10 @@ function search_text() {
             document.getElementById("answer-sheet").innerHTML = result;
             document.getElementById('body-wrapper').classList.add(filteredData.length === 0 ? "errorWrapper" : "successWrapper");
             document.getElementById("raw-answer").innerHTML = filteredData.length === 0 ? errorMessage : filteredData[0].description;
-        }
+        })
+        .catch(function (error) {
+            alert('Some Error happened, Try again later or contact the person.');
+        });
     } else {
         result = "<span style='color:red'> Error code 404 : intuitive() missing required parameters ! <span/>";
         document.getElementById("answer-sheet").innerHTML = result;
