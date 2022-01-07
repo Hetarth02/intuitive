@@ -32,6 +32,9 @@ See `Contribution.MD` for ways to get started.
 - Neural Networks
 - Pandas
 - Numpy
+- Matplotlib
+- Tensorflow
+- Tensor
 - Stack
 - Queue
 - Data Structure
