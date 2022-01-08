@@ -76,6 +76,27 @@
     },
     {
         "keywords": [
+            "Matplotlib",
+            "matplotlib"
+        ],
+        "description": "A python library that automates the plotting of datapoints onto various types of graphical representations."
+    },
+    {
+        "keywords": [
+            "Tensorflow",
+            "tensorflow"
+        ],
+        "description": "A python library that contains a huge collection of methods involving tensor data type that can be used for AI, ML and Deep Learning algorithms."
+    },
+    {
+        "keywords": [
+            "Tensor",
+            "tensor"
+        ],
+        "description": "A tensor is a type of data structure which helps store and process huge amount of poly-dimensional data, it is expecially used in Tensorflow."
+    },
+    {
+        "keywords": [
             "Stack",
             "stack"
         ],
