@@ -37,6 +37,10 @@ See `Contribution.MD` for ways to get started.
 - Tensor
 - Stack
 - Queue
+- Tuple
+- List
+- Set
+- Dictionary
 - Data Structure
 - Backend
 - Frontend
