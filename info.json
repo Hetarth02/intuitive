@@ -109,6 +109,41 @@
         ],
         "description": "A queue is a type of data structure with a first-in-first-out policy, just like a queue of people IRL."
     },
+    
+    {
+        "keywords": [
+            "Tuple",
+            "tuple"
+        ],
+        "description": "A Python tuple is like an array of a series of member components which can be of any datatype. It is different from a list, as it is immutable."
+    },
+    
+    {
+        "keywords": [
+            "List",
+            "list"
+        ],
+        "description": "A Python list is like an array of a series of member components which can be of any datatype. It is very flexible in terms of operations like: append, pop, sort etc."
+    },
+    
+    {
+        "keywords": [
+            "Set",
+            "set",
+            "Python Set",
+            "python set"
+        ],
+        "description": "A Python set is like an array of a series of UNIQUE member components which can be of any datatype. It is iterable, mutable and has no duplicate elements."
+    },
+    {
+        "keywords": [
+            "Dictionary",
+            "dictionary",
+            "Python Dictionary",
+            "python dictionary"
+        ],
+        "description": "A Python dictionary is a special implementation of 'set', where data can be stored in a form of Key-Value pair. It is iterable, mutable and has no duplicate elements."
+    },
     {
         "keywords": [
             "Data structure",
