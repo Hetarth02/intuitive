@@ -67,6 +67,21 @@
         ],
         "description": "A python library mainly used to process data files and visualise it in various forms."
     },
+        {
+        "keywords": [
+            "Standardization",
+            "standardization"
+        ],
+        "description": "A data manipulation method that converts numeric data in a way that mean = 0 and standard deviation = 1."
+    },
+    {
+        "keywords": [
+            "Normalization",
+            "normalization"
+        ],
+        "description": "A data manipulation method that fits the numeric data between a scale of 0 to 1."
+    },
+    
     {
         "keywords": [
             "Numpy",
