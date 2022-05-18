@@ -31,6 +31,8 @@ See `Contribution.MD` for ways to get started.
 - Machine Learning
 - Neural Networks
 - Pandas
+- Standardization
+- Normalization
 - Numpy
 - Matplotlib
 - Tensorflow
