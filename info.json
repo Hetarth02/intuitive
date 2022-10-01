@@ -98,6 +98,14 @@
     },
     {
         "keywords": [
+            "sk-learn",
+            "scikit-learn",
+            "sklearn"
+        ],
+        "description": "Sk-learn is a library of simple and efficient tools primariy used for predictive data analysis."
+    },
+    {
+        "keywords": [
             "Tensorflow",
             "tensorflow"
         ],
@@ -259,6 +267,14 @@
             "Reinforcement learning"
         ],
         "description": "It works on the principle of reward which can be availed at the end of each achieved task. E.g.:- Q-learning."
+    },
+    {
+        "keywords": [
+            "PPC",
+            "ppc",
+            "pay per click"
+        ],
+        "description": "PPC or Pay Per Click refers to an advertising model, where the advertiser pays money each time their ad is clicked by interesting viewer."
     },
     {
         "keywords": [
