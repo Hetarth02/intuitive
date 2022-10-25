@@ -10,6 +10,6 @@
 - Try being extremely concise with your definitions, but make sure that the words you write can be less formal. but needs to be more INTUITIVE.
 - Make sure you cover all of the different versions of the same keyword.
 - Please do add your committed keywords into available words section in Readme.
-- In case you find a grammatical on semantic error with someone else's entry, DO NOT correct it on your own. Just raise an issue.
+- In case you find a grammatical or semantic error with someone else's entry, DO NOT correct it on your own. Just raise an issue.
 - Follow the code of conduct.
 - Please follow the standard mehods of defining committ messages.

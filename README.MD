@@ -35,6 +35,7 @@ See `Contribution.MD` for ways to get started.
 - Normalization
 - Numpy
 - Matplotlib
+- scikit-learn
 - Tensorflow
 - Tensor
 - Stack
@@ -56,6 +57,7 @@ See `Contribution.MD` for ways to get started.
 - Boxplot
 - Data
 - Reinforcement Learning
+- PPC
 - Git
 - GitHub
 
