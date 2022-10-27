@@ -285,9 +285,16 @@
     {
         "keywords": [
             "BYOD",
-            "Bring Your Own Device",
+            "Bring Your Own Device"
         ],
         "description": "BYOD or Bring Your Own Device is an organization's or policy that allows employees to use their own personal devices for work purposes."
+    },
+    {
+        "keywords": [
+            "credentials",
+            "creds"
+        ],
+        "description": "A user’s authentication information used to verify identity typically one, or more, of password, token, certificate."
     },
     {
         "keywords": [
