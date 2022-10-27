@@ -132,7 +132,13 @@
         ],
         "description": "A queue is a type of data structure with a first-in-first-out policy, just like a queue of people IRL."
     },
-    
+    {
+        "keywords": [
+            "Priority queue",
+            "priority queue"
+        ],
+        "description": "A priority-queue is a type of data structure in which the top element is always the maximum or minimum element in the queue according to the priority queue declared."
+    },
     {
         "keywords": [
             "Tuple",
