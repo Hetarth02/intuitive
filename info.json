@@ -284,6 +284,12 @@
     },
     {
         "keywords": [
+            "Dictionary Attack"
+        ],
+        "description": "A type of brute force attack in which the attacker uses known dictionary words, phrases or common passwords as their guesses."
+    },
+    {
+        "keywords": [
             "BYOD",
             "Bring Your Own Device"
         ],
