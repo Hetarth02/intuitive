@@ -59,7 +59,10 @@ See `Contribution.MD` for ways to get started.
 - Data
 - Reinforcement Learning
 - PPC
+- Digital Footprint
 - Cache
+- Dictionary Attack
+- Ransomware
 - BYOD
 - Credentials
 - Git

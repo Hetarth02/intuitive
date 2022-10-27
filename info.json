@@ -278,9 +278,27 @@
     },
     {
         "keywords": [
+            "Digital Footprint"
+        ],
+        "description": "A footprint of digital information that a user’s online activity leaves behind."
+    },
+    {
+        "keywords": [
             "cache"
         ],
         "description": "Cache is the fastest and most accessible segment of memory in computer architecture."
+    },
+    {
+        "keywords": [
+            "Dictionary Attack"
+        ],
+        "description": "A type of brute force attack in which the attacker uses known dictionary words, phrases or common passwords as their guesses."
+    },
+    {
+        "keywords": [
+            "Ransomware"
+        ],
+        "description": "Malicious software that makes data or systems unusable until the victim makes a payment."
     },
     {
         "keywords": [
