@@ -11,7 +11,8 @@ Easy to understand the definition and multiple keywords.
 
 ## Tech Stack
 
-```python
+```
+python
 HTML
 CSS
 JavaScript
@@ -58,6 +59,7 @@ See `Contribution.MD` for ways to get started.
 - Data
 - Reinforcement Learning
 - PPC
+- Cache
 - Git
 - GitHub
 
