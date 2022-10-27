@@ -348,5 +348,5 @@
             "IaaS"
         ],
         "description": "nfrastructure as a service (IaaS) is a cloud computing service model in which computing resources are hosted in a public cloud, private cloud, or hybrid cloud."
-    },
+    }
 ]
