@@ -345,9 +345,10 @@
     },
     {
         "keywords": [
-            "IaaS"
+            "spear-phishing",
+            "spear phishing"
         ],
-        "description": "nfrastructure as a service (IaaS) is a cloud computing service model in which computing resources are hosted in a public cloud, private cloud, or hybrid cloud."
+        "description": "A more targeted form of phishing, where the email is designed to look like it’s from a person the recipient knows and/or trusts."
     },
     {
         "keywords": [
