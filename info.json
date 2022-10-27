@@ -336,7 +336,26 @@
             "GITHUB"
         ],
         "description": "Github is basically a powerful collaboration and project management tool for computer programming. It's designed to let people share coding projects with others and help manage those projects while allowing others to also contribute to the source code. It's primarily useful when you have multiple people working on the same code-base and you want to keep track of and review everyone's individual contributions to the project."
-    }
+    },
+    {
+        "keywords": [
+            "social engineering"
+        ],
+        "description": "Manipulating people into carrying out specific actions, or divulging information, which is of use to an attacker."
+    },
+    {
+        "keywords": [
+            "Trojan"
+        ],
+        "description": "A type of malware or virus disguised as legitimate software, that is used to hack into the victim’s computer."
+    },
+    {
+        "keywords": [
+            "spear-phishing",
+            "spear phishing"
+        ],
+        "description": "A more targeted form of phishing, where the email is designed to look like it’s from a person the recipient knows and/or trusts."
+    },
     {
         "keywords": [
             "SaaS"
@@ -353,6 +372,6 @@
         "keywords": [
             "IaaS"
         ],
-        "description": "nfrastructure as a service (IaaS) is a cloud computing service model in which computing resources are hosted in a public cloud, private cloud, or hybrid cloud."
-    },
+        "description": "Infrastructure as a service (IaaS) is a cloud computing service model in which computing resources are hosted in a public cloud, private cloud, or hybrid cloud."
+    }
 ]

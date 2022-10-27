@@ -68,6 +68,9 @@ See `Contribution.MD` for ways to get started.
 - Credentials
 - Git
 - GitHub
+- Social engineering
+- Trojan
+- Spear-phishing
 - SaaS
 - PaaS
 - IaaS
