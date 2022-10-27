@@ -44,6 +44,7 @@ See `Contribution.MD` for ways to get started.
 - Tuple
 - List
 - Set
+- Priority Queue
 - Dictionary
 - Data Structure
 - Backend
@@ -76,3 +77,4 @@ See `Contribution.MD` for ways to get started.
 - [@paucaro](https://github.com/paucaro)
 - [@ManishOffi](https://github.com/ManishOffi)
 - [@honeykpatel](https://github.com/honeykpatel)
+- [@Ronit72](https://github.com/Ronit72)
