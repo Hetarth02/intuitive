@@ -62,6 +62,7 @@ See `Contribution.MD` for ways to get started.
 - Digital Footprint
 - Cache
 - Dictionary Attack
+- Ransomware
 - BYOD
 - Credentials
 - Git
