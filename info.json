@@ -333,6 +333,24 @@
     },
     {
         "keywords": [
+            "social engineering"
+        ],
+        "description": "Manipulating people into carrying out specific actions, or divulging information, which is of use to an attacker."
+    },
+    {
+        "keywords": [
+            "PaaS"
+        ],
+        "description": "Platform as a service (PaaS) is a cloud computing model where a third-party provider delivers hardware and software tools to users over the internet."
+    },
+    {
+        "keywords": [
+            "IaaS"
+        ],
+        "description": "nfrastructure as a service (IaaS) is a cloud computing service model in which computing resources are hosted in a public cloud, private cloud, or hybrid cloud."
+    },
+    {
+        "keywords": [
             "SaaS"
         ],
         "description": "Describes a business model where consumers access centrally-hosted software applications over the Internet."
