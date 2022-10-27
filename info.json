@@ -278,6 +278,13 @@
     },
     {
         "keywords": [
+            "cache"
+        ],
+        "description": "Cache is the fastest and most accessible segment of memory in computer architecture."
+    },
+    
+    {
+        "keywords": [
             "Git",
             "git",
             "GIT"
