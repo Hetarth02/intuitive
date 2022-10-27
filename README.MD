@@ -61,6 +61,7 @@ See `Contribution.MD` for ways to get started.
 - PPC
 - Cache
 - BYOD
+- Credentials
 - Git
 - GitHub
 
