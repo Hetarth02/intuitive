@@ -67,6 +67,9 @@ See `Contribution.MD` for ways to get started.
 - Credentials
 - Git
 - GitHub
+- SaaS
+- PaaS
+- IaaS
 
 ## Link
 - > https://hetarth02.github.io/intuitive/
