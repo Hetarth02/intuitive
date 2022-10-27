@@ -296,6 +296,12 @@
     },
     {
         "keywords": [
+            "Ransomware"
+        ],
+        "description": "Malicious software that makes data or systems unusable until the victim makes a payment."
+    },
+    {
+        "keywords": [
             "BYOD",
             "Bring Your Own Device"
         ],
