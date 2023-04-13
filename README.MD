@@ -73,6 +73,7 @@ See `Contribution.MD` for ways to get started.
 - Spear-phishing
 - SaaS
 - PaaS
+- R
 - IaaS
 
 ## Link
